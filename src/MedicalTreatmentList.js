@@ -9,7 +9,8 @@ const ListMedicalTreatmentList = medicaltreatmentlist.map((medicalTreatment)=>
 <li>
   <MedicalTreatment treatId = {medicalTreatment.treatId} treatCourseId = {medicalTreatment.treatCourseId}type ={medicalTreatment.type}category={medicalTreatment.category}name ={medicalTreatment.name}startDate= {medicalTreatment.startDate}/>
 
-  </li>);
+  </li>
+);
   return (
     <ul> 
       {ListMedicalTreatmentList}
